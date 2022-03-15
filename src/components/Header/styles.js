@@ -30,3 +30,10 @@ export const Navigation = styled.ul`
     gap: ${theme.spacings.medium};
   `}
 `;
+
+export const NavigationMobile = styled.ul`
+  ${({ theme }) => css`
+    display: flex;
+    gap: ${theme.spacings.medium};
+  `}
+`;

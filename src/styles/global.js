@@ -16,6 +16,7 @@ const GlobalStyles = createGlobalStyle`
       font-family: ${theme.fonts.family};
       font-size: ${theme.fonts.sizes.normal};
       color: ${theme.colors.text};
+      background-color: ${theme.colors.secondary};
     }
 
     ul {
